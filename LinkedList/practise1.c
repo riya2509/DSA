@@ -18,7 +18,7 @@ void main()
         newnode->next = 0;
         if (head == 0)
         {
-            newnode = head = temp;
+          head = temp= newnode ;
         }
         // new node entered using malloc
         else
