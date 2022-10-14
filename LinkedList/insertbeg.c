@@ -38,4 +38,21 @@ void main()
         count++;
     }
     printf("Number of nodes are %d", count);
+    // inserting at the beginning 
+    newnode=(struct node *)malloc(sizeof(struct node));
+    printf("Enter the data you want to insert at the beginning");
+    scanf("%d",&newnode->data);
+    newnode->next=head;
+    head=newnode;
+    // printing of list by traversing
+    temp = head;
+    printf("New list is:");
+    while (temp != 0)
+    {
+        printf("%d\n", temp->data);
+        temp = temp->next;
+    }
+    printf("Number of nodes are %d", count+1);
+
+
 }
