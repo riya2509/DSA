@@ -18,7 +18,7 @@ void main()
         scanf("%d", &newnode->data);
         if (head == 0)
         {
-            head = temp = newnode;
+            head = newnode= temp;
         }
         // creating a new node using malloc
         else
@@ -45,6 +45,7 @@ void main()
     printf("Enter the data to be inserted:");
     scanf("%d", &newnode->data);
     newnode->next = 0;
+    temp=head;
     while (temp->next != 0)
     {
         temp = temp->next;
