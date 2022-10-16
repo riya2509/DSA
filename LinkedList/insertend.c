@@ -16,9 +16,10 @@ void main()
         newnode = (struct node *)malloc(sizeof(struct node));
         printf("Enter data:");
         scanf("%d", &newnode->data);
+        newnode->next = 0;
         if (head == 0)
         {
-            head = newnode= temp;
+            head = temp=newnode;
         }
         // creating a new node using malloc
         else
