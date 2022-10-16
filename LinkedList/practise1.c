@@ -29,6 +29,7 @@ void main()
         printf("Do you want to continue 0 or 1?\n");
         scanf("%d", &choice);
     }
+    //printing the list
     temp = head;
     while (temp != 0)
     {
