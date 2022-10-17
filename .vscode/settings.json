@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "areaOfRect.C": "cpp"
+        "areaOfRect.C": "cpp",
+        "array": "c",
+        "initializer_list": "c",
+        "utility": "c"
     }
 }
