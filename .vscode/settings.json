@@ -3,6 +3,8 @@
         "areaOfRect.C": "cpp",
         "array": "c",
         "initializer_list": "c",
-        "utility": "c"
+        "utility": "c",
+        "*.tcc": "c",
+        "istream": "c"
     }
 }
